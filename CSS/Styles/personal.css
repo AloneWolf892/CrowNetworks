@@ -1,3 +1,7 @@
+#password-output:hover {
+  cursor: pointer
+}
+
 .svg-icon {
   width: 1em;
   height: 1em;

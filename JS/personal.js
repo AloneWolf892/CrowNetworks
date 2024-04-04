@@ -27,5 +27,8 @@ $(document).ready(() => {
         }
         $("#password-output").val(password)
     })
+    $("#password-output").on("click", (event) => {
+        navigator.clipboard.writeText($("#password-output").val());
+    })
 })
 
